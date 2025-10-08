@@ -37,8 +37,29 @@ This project aims to detect deepfake audio using machine learning. The model is 
 
 ## 📂 Project Structure
 
-
-Audio-Deepfake-Detection/ │── uploads/ # Folder for uploaded audio files │── model.keras # Trained deepfake detection model │── app.py # Flask API for inference │── templates/ │ ├── index.html # Frontend UI for file upload │── static/ │ ├── style.css # Styling for UI │── requirements.txt # Required dependencies │── README.md # Project Documentation
+```
+Audio-Deepfake-Detection/
+│
+├── uploads/                    # Folder for uploaded audio files
+├── static/                     # Static assets
+│   ├── styles.css             # Styling for UI
+│   └── images/                # Background images
+├── templates/                  # HTML templates
+│   ├── index.html             # Home page
+│   ├── about.html             # About page
+│   ├── how-it-works.html      # How it works page
+│   ├── technology.html        # Technology page
+│   ├── contact.html           # Contact page
+│   └── base.html              # Base template
+├── images/                     # Screenshots for README
+├── model.keras                 # Trained deepfake detection model
+├── app.py                      # Flask API for inference
+├── requirements.txt            # Required dependencies
+├── Audio_Deepfake_Detection.ipynb  # Training notebook
+├── CONTRIBUTING.md             # Contribution guidelines
+├── LICENSE                     # MIT License
+└── README.md                   # Project documentation
+```
 
 ## ⚙️ Setup & Installation
 1. **Clone the repository**
